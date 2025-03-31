@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Resume & Certificates</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">MyPortfolio</div>
+        <div class="nav-links">
+            <a href="#resume">Resume</a>
+            <a href="#certificates">Certificates</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="animate-pop">Dhivyadharshini T</h1>
+            <p class="animate-pop delay-1">B.Sc., Computes Science II Year</p>
+            <div class="hero-btns">
+                <a href="#resume" class="btn animate-pop delay-2">View Resume</a>
+                <a href="#certificates" class="btn outline animate-pop delay-3">View Certificates</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <h2 class="section-title">My Resume</h2>
+        <div class="resume-container">
+            <div class="resume-preview animate-slide">
+                <img src="Dhivyadharshini T_page-0001.jpg" alt="Resume Preview">
+                <div class="resume-overlay">
+                    <button class="view-btn"><i class="fas fa-expand"></i> Full View</button>
+                </div>
+            </div>
+            <div class="resume-actions animate-slide delay-1">
+                <a href="Dhivyadharshini T.pdf" download class="download-btn">
+                    <i class="fas fa-file-pdf"></i> Download PDF
+                </a>
+            </div>
+        </div>
+    </section>
+
+   <!-- Certificates Section -->
+<section id="certificates" class="section">
+    <h2 class="section-title">My Certificate</h2>
+    <div class="certificate-single">
+        <div class="certificate-preview animate-slide">
+            <img src="dd.jpg" alt="TNSDC-FEWD & Cloud">
+            <div class="certificate-overlay">
+                <button class="view-btn"><i class="fas fa-expand"></i> Full View</button>
+            </div>
+        </div>
+        <div class="certificate-actions animate-slide delay-1">
+            <a href="Completion Certificate _ SkillsBuild.pdf" download class="download-btn">
+                <i class="fas fa-file-pdf"></i> Download PDF
+            </a>
+           
+        </div>
+    </div>
+</section>
+
+    <!-- Modal for Viewing -->
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <img src="" alt="Document Preview" class="modal-doc">
+        </div>
+    </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
